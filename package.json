@@ -1,0 +1,13 @@
+{
+  "name": "gbapps",
+  "description": "A starter project for GB Analytics",
+  "repository": "https://github.com/angular/angular-seed",
+  "devDependencies": {
+    "phantomjs": "~1.9",
+    "karma": "~0.10",
+    "karma-junit-reporter": "~0.1",
+    "karma-jasmine": "~0.1",
+    "protractor": "~0.17.0",
+    "karma-phantomjs-launcher": "^0.1.2"
+  }
+}

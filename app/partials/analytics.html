@@ -1,0 +1,18 @@
+<h1>
+	Analytics
+</h1>
+<div id='menu' ng-controller='MenuCtrl'>
+	<ul class="sf-menu">
+		<li ng-repeat='menuItem in menu' ng-show="menuItem.features">
+			<a ng-href='{{menuItem.link}}'>{{menuItem.label}}</a>
+			<ul ng-if="menuItem.features">
+				<li ng-repeat="feature in menuItem.features">
+					<a ng-href='{{feature.link}}'>{{feature.label}}</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<script>
+
+</script>
