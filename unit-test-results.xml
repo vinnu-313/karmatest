@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 33.0.1750 (Windows 7)" package="unit" timestamp="2014-03-10T06:31:56" id="0" hostname="inblrdt-RAHUL1" tests="8" errors="0" failures="0" time="0.034">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"/>
+    </properties>
+    <testcase name="Is gbApp module exists ??" time="0.019" classname="unit Chrome 33.0.1750 (Windows 7).Application Test : "/>
+    <testcase name="Should have gbApp.controllers" time="0.001" classname="unit Chrome 33.0.1750 (Windows 7).Application Test :  Testing dependecies : "/>
+    <testcase name="Should have gbApp.directives" time="0" classname="unit Chrome 33.0.1750 (Windows 7).Application Test :  Testing dependecies : "/>
+    <testcase name="Should have gbApp.services" time="0.001" classname="unit Chrome 33.0.1750 (Windows 7).Application Test :  Testing dependecies : "/>
+    <testcase name="Should have gbApp.filters" time="0" classname="unit Chrome 33.0.1750 (Windows 7).Application Test :  Testing dependecies : "/>
+    <testcase name="Should have ngRoute" time="0" classname="unit Chrome 33.0.1750 (Windows 7).Application Test :  Testing dependecies : "/>
+    <testcase name="Should have menu" time="0.008" classname="unit Chrome 33.0.1750 (Windows 7).MenuCtrl"/>
+    <testcase name="MenuService" time="0.005" classname="unit Chrome 33.0.1750 (Windows 7).Testing Services"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

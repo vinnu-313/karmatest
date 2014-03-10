@@ -29,10 +29,9 @@ module.exports = function (config) {
         ],
 
         browsers: ['Chrome'],
-
-
+        reporters: ['dots', 'junit'],
         junitReporter: {
-            outputFile: 'test_out/unit.xml',
+            outputFile: 'unit-test-results.xml',
             suite: 'unit'
         }
 
