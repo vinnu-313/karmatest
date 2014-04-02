@@ -31,7 +31,6 @@ module.exports = function (config) {
         junitReporter: {
             outputFile: 'test-results.xml'
         },
-        browsers: ['PhantomJS']
-
+        browsers: ['phantomjs']
     })
 }
