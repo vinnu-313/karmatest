@@ -25,12 +25,13 @@ module.exports = function (config) {
             'karma-junit-reporter',
             'karma-chrome-launcher',
             'karma-firefox-launcher',
-            'karma-jasmine'
+            'karma-jasmine',
+            'karma-phantomjs-launcher'
         ],
         reporters: ['dots', 'junit'],
         junitReporter: {
             outputFile: 'test-results.xml'
         },
-        browsers: ['phantomjs']
+        browsers: ['PhantomJS']
     })
 }
