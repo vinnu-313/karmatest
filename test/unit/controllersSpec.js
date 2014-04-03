@@ -12,7 +12,7 @@ describe('MenuCtrl', function() {
 		var ctrl = $controller('MenuCtrl', {
 			'$scope' : $scope
 		});
-		expect($scope.menu).not.toBeDefined();
+		expect($scope.menu).toBeDefined();
 		$httpBackend.flush();
 		expect($scope.menu).toBeDefined();
 		expect($scope.menu).toEqual([1,2,3]);
